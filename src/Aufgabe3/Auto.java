@@ -24,11 +24,10 @@ public class Auto extends Fahrzeug implements Comparable<Auto>
         }
         else
         {
-            this.klimaanlage = false; //könnte auch getter und setter verwenden
+            this.klimaanlage = false;
 
         }
     }
-
                                                                     //Aufgabe 3
     public boolean getKlimaanlage() {
         return klimaanlage;
@@ -47,14 +46,13 @@ public class Auto extends Fahrzeug implements Comparable<Auto>
     }
 
                                                                      //Aufgabe 4
+
     public Auto( short airbag, short reifen, String color, short ps, short tueren, short geschwindigkeit) {
         super(reifen, color, ps, tueren, geschwindigkeit);
         this.klimaanlage = false;
         this.airbag = airbag;
     }
-
                                                                     //Aufgabe 6
-
     @Override
     public String toString(){
         return "Mein Auto hat "+this.getPs()+" PS und fährt mit "+this.getGeschwindigkeit()+" km/h";
