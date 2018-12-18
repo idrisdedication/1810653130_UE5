@@ -56,7 +56,7 @@ public class Aufruf
                                                                                                             //Aufgabe 4
         System.out.println("\nAufgabe 4:");
 
-        String eins = JOptionPane.showInputDialog("Geben Sie biite ein Wort ein!");
+        String eins = JOptionPane.showInputDialog("Geben Sie bitte ein Wort ein!");
 
         String zwei = JOptionPane.showInputDialog("Geben Sie bitte ein zweites Wort ein!");
 
